@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3A52431AC1F25600FC49C5 /* get_loc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */; };
+		CA3A52451AC21C3E00FC49C5 /* user_loc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */; };
+		CA3A52471AC228C700FC49C5 /* job_loc_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52461AC228C700FC49C5 /* job_loc_pin.png */; };
+		CA4046691A95A85000A646C4 /* ContactInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4046681A95A85000A646C4 /* ContactInfoTableViewController.swift */; };
+		CA40466D1A95B19100A646C4 /* YourJobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40466C1A95B19100A646C4 /* YourJobsTableViewController.swift */; };
+		CA40466F1A96978F00A646C4 /* MyJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40466E1A96978F00A646C4 /* MyJobTableViewController.swift */; };
+		CA4046721A96A24400A646C4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4046711A96A24400A646C4 /* AboutViewController.swift */; };
+		CA5F8AD91A93F8050034FAF2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5F8AD81A93F8050034FAF2 /* MessageUI.framework */; };
+		CA5F8AE21A94317B0034FAF2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5F8AE11A94317B0034FAF2 /* SWRevealViewController.m */; };
+		CA5F8AE91A959BC80034FAF2 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F8AE81A959BC80034FAF2 /* SideMenuTableViewController.swift */; };
+		CA61A7D61A8BECFB001F1726 /* JobDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA61A7D51A8BECFB001F1726 /* JobDetailsTableViewController.swift */; };
+		CA61A7D81A8BED1E001F1726 /* AcceptedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA61A7D71A8BED1E001F1726 /* AcceptedTableViewController.swift */; };
+		CA79AD031A8D8B4D0032E41B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79ACFE1A8D8B4D0032E41B /* Bolts.framework */; };
+		CA79AD041A8D8B4D0032E41B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79ACFF1A8D8B4D0032E41B /* Parse.framework */; };
+		CA79AD051A8D8B4D0032E41B /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD001A8D8B4D0032E41B /* ParseCrashReporting.framework */; };
+		CA79AD061A8D8B4D0032E41B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD011A8D8B4D0032E41B /* ParseFacebookUtils.framework */; };
+		CA79AD071A8D8B4D0032E41B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD021A8D8B4D0032E41B /* ParseUI.framework */; };
+		CA79AD091A8D8B690032E41B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD081A8D8B690032E41B /* AudioToolbox.framework */; };
+		CA79AD0B1A8D8B7A0032E41B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD0A1A8D8B7A0032E41B /* CFNetwork.framework */; };
+		CA79AD0D1A8D8B870032E41B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD0C1A8D8B870032E41B /* CoreGraphics.framework */; };
+		CA79AD0F1A8D8B8E0032E41B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD0E1A8D8B8E0032E41B /* CoreLocation.framework */; };
+		CA79AD111A8D8B9A0032E41B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD101A8D8B9A0032E41B /* MobileCoreServices.framework */; };
+		CA79AD131A8D8BA10032E41B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD121A8D8BA10032E41B /* QuartzCore.framework */; };
+		CA79AD151A8D8BA90032E41B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD141A8D8BA90032E41B /* Security.framework */; };
+		CA79AD191A8D8BBB0032E41B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD181A8D8BBB0032E41B /* SystemConfiguration.framework */; };
+		CA79AD1B1A8D8BC60032E41B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD1A1A8D8BC60032E41B /* libz.dylib */; };
+		CA79AD1D1A8D8BCF0032E41B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD1C1A8D8BCF0032E41B /* libsqlite3.dylib */; };
+		CA79AD1F1A8D91190032E41B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD1E1A8D91190032E41B /* MapKit.framework */; };
+		CA7B268D1ABBD7B000D52DEF /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B268C1ABBD7B000D52DEF /* menu@3x.png */; };
+		CACE250F1AF1F7BC005EF98C /* pin1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250A1AF1F7BC005EF98C /* pin1.png */; };
+		CACE25101AF1F7BC005EF98C /* check1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250B1AF1F7BC005EF98C /* check1.png */; };
+		CACE25111AF1F7BC005EF98C /* phone1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250C1AF1F7BC005EF98C /* phone1.png */; };
+		CACE25121AF1F7BC005EF98C /* briefcase1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250D1AF1F7BC005EF98C /* briefcase1.png */; };
+		CACE25131AF1F7BC005EF98C /* about1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250E1AF1F7BC005EF98C /* about1.png */; };
+		CACE25151AF1F889005EF98C /* list1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE25141AF1F888005EF98C /* list1.png */; };
+		CACE25171AF1F898005EF98C /* plus1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE25161AF1F898005EF98C /* plus1.png */; };
+		CACE25521AF45BCD005EF98C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CACE25511AF45BCD005EF98C /* Info.plist */; };
+		CACE25541AF45EA5005EF98C /* Media2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACE25531AF45EA5005EF98C /* Media2.xcassets */; };
+		CACE25581AF46F3F005EF98C /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CACE25571AF46F3F005EF98C /* launch.jpg */; };
+		CACE255A1AF47342005EF98C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE25591AF47342005EF98C /* Default-568h@2x.png */; };
+		CADBFA8C1AC90B6500831C11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADBFA8B1AC90B6500831C11 /* MainStoryboard.storyboard */; };
+		CADBFA8E1AC90F7400831C11 /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBFA8D1AC90F7400831C11 /* EntranceViewController.swift */; };
+		CADBFA961ACB5B5700831C11 /* green_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CADBFA951ACB5B5700831C11 /* green_pin.png */; };
+		CAEF6F281A8BD786006A7ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF6F271A8BD786006A7ABD /* AppDelegate.swift */; };
+		CAEF6F2F1A8BD786006A7ABD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEF6F2E1A8BD786006A7ABD /* Images.xcassets */; };
+		CAEF6F321A8BD786006A7ABD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEF6F301A8BD786006A7ABD /* LaunchScreen.xib */; };
+		CAEF6F3E1A8BD786006A7ABD /* For_HireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF6F3D1A8BD786006A7ABD /* For_HireTests.swift */; };
+		CAEF6F481A8BD937006A7ABD /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF6F471A8BD937006A7ABD /* JobsTableViewController.swift */; };
+		CAEF6F4A1A8BD95C006A7ABD /* NewListingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF6F491A8BD95C006A7ABD /* NewListingTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEF6F381A8BD786006A7ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEF6F1A1A8BD786006A7ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEF6F211A8BD786006A7ABD;
+			remoteInfo = "For Hire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get_loc@3x.png"; sourceTree = "<group>"; };
+		CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_loc@3x.png"; sourceTree = "<group>"; };
+		CA3A52461AC228C700FC49C5 /* job_loc_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_loc_pin.png; sourceTree = "<group>"; };
+		CA4046681A95A85000A646C4 /* ContactInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewController.swift; sourceTree = "<group>"; };
+		CA40466C1A95B19100A646C4 /* YourJobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourJobsTableViewController.swift; sourceTree = "<group>"; };
+		CA40466E1A96978F00A646C4 /* MyJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyJobTableViewController.swift; sourceTree = "<group>"; };
+		CA4046711A96A24400A646C4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CA5F8AD81A93F8050034FAF2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CA5F8AE01A94317B0034FAF2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CA5F8AE11A94317B0034FAF2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CA5F8AE81A959BC80034FAF2 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuTableViewController.swift; path = ../SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		CA61A7D51A8BECFB001F1726 /* JobDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsTableViewController.swift; sourceTree = "<group>"; };
+		CA61A7D71A8BED1E001F1726 /* AcceptedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptedTableViewController.swift; sourceTree = "<group>"; };
+		CA79ACFB1A8D520E0032E41B /* For Hire-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "For Hire-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA79ACFE1A8D8B4D0032E41B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CA79ACFF1A8D8B4D0032E41B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CA79AD001A8D8B4D0032E41B /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CA79AD011A8D8B4D0032E41B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CA79AD021A8D8B4D0032E41B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CA79AD081A8D8B690032E41B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CA79AD0A1A8D8B7A0032E41B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CA79AD0C1A8D8B870032E41B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA79AD0E1A8D8B8E0032E41B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CA79AD101A8D8B9A0032E41B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CA79AD121A8D8BA10032E41B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA79AD141A8D8BA90032E41B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA79AD181A8D8BBB0032E41B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA79AD1A1A8D8BC60032E41B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CA79AD1C1A8D8BCF0032E41B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CA79AD1E1A8D91190032E41B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CA7B268C1ABBD7B000D52DEF /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		CACE250A1AF1F7BC005EF98C /* pin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin1.png; sourceTree = "<group>"; };
+		CACE250B1AF1F7BC005EF98C /* check1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check1.png; sourceTree = "<group>"; };
+		CACE250C1AF1F7BC005EF98C /* phone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone1.png; sourceTree = "<group>"; };
+		CACE250D1AF1F7BC005EF98C /* briefcase1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = briefcase1.png; sourceTree = "<group>"; };
+		CACE250E1AF1F7BC005EF98C /* about1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about1.png; sourceTree = "<group>"; };
+		CACE25141AF1F888005EF98C /* list1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list1.png; sourceTree = "<group>"; };
+		CACE25161AF1F898005EF98C /* plus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus1.png; sourceTree = "<group>"; };
+		CACE25511AF45BCD005EF98C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACE25531AF45EA5005EF98C /* Media2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media2.xcassets; sourceTree = "<group>"; };
+		CACE25571AF46F3F005EF98C /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		CACE25591AF47342005EF98C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CADBFA8B1AC90B6500831C11 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CADBFA8D1AC90F7400831C11 /* EntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
+		CADBFA951ACB5B5700831C11 /* green_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_pin.png; sourceTree = "<group>"; };
+		CAEF6F221A8BD786006A7ABD /* HireMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HireMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF6F261A8BD786006A7ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEF6F271A8BD786006A7ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAEF6F2E1A8BD786006A7ABD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAEF6F311A8BD786006A7ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAEF6F371A8BD786006A7ABD /* HireMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HireMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF6F3D1A8BD786006A7ABD /* For_HireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For_HireTests.swift; sourceTree = "<group>"; };
+		CAEF6F471A8BD937006A7ABD /* JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsTableViewController.swift; path = ../JobsTableViewController.swift; sourceTree = "<group>"; };
+		CAEF6F491A8BD95C006A7ABD /* NewListingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListingTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEF6F1F1A8BD786006A7ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5F8AD91A93F8050034FAF2 /* MessageUI.framework in Frameworks */,
+				CA79AD1F1A8D91190032E41B /* MapKit.framework in Frameworks */,
+				CA79AD1D1A8D8BCF0032E41B /* libsqlite3.dylib in Frameworks */,
+				CA79AD1B1A8D8BC60032E41B /* libz.dylib in Frameworks */,
+				CA79AD191A8D8BBB0032E41B /* SystemConfiguration.framework in Frameworks */,
+				CA79AD151A8D8BA90032E41B /* Security.framework in Frameworks */,
+				CA79AD131A8D8BA10032E41B /* QuartzCore.framework in Frameworks */,
+				CA79AD111A8D8B9A0032E41B /* MobileCoreServices.framework in Frameworks */,
+				CA79AD0F1A8D8B8E0032E41B /* CoreLocation.framework in Frameworks */,
+				CA79AD0D1A8D8B870032E41B /* CoreGraphics.framework in Frameworks */,
+				CA79AD0B1A8D8B7A0032E41B /* CFNetwork.framework in Frameworks */,
+				CA79AD091A8D8B690032E41B /* AudioToolbox.framework in Frameworks */,
+				CA79AD041A8D8B4D0032E41B /* Parse.framework in Frameworks */,
+				CA79AD051A8D8B4D0032E41B /* ParseCrashReporting.framework in Frameworks */,
+				CA79AD071A8D8B4D0032E41B /* ParseUI.framework in Frameworks */,
+				CA79AD061A8D8B4D0032E41B /* ParseFacebookUtils.framework in Frameworks */,
+				CA79AD031A8D8B4D0032E41B /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF6F341A8BD786006A7ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4046701A969B8C00A646C4 /* Side Menu Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5F8AE81A959BC80034FAF2 /* SideMenuTableViewController.swift */,
+				CA4046681A95A85000A646C4 /* ContactInfoTableViewController.swift */,
+				CA40466C1A95B19100A646C4 /* YourJobsTableViewController.swift */,
+				CA40466E1A96978F00A646C4 /* MyJobTableViewController.swift */,
+				CA4046711A96A24400A646C4 /* AboutViewController.swift */,
+			);
+			name = "Side Menu Files";
+			sourceTree = "<group>";
+		};
+		CA61A7F51A8C4D21001F1726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5F8AD81A93F8050034FAF2 /* MessageUI.framework */,
+				CA79AD1E1A8D91190032E41B /* MapKit.framework */,
+				CA79AD1C1A8D8BCF0032E41B /* libsqlite3.dylib */,
+				CA79AD1A1A8D8BC60032E41B /* libz.dylib */,
+				CA79AD181A8D8BBB0032E41B /* SystemConfiguration.framework */,
+				CA79AD141A8D8BA90032E41B /* Security.framework */,
+				CA79AD121A8D8BA10032E41B /* QuartzCore.framework */,
+				CA79AD101A8D8B9A0032E41B /* MobileCoreServices.framework */,
+				CA79AD0E1A8D8B8E0032E41B /* CoreLocation.framework */,
+				CA79AD0C1A8D8B870032E41B /* CoreGraphics.framework */,
+				CA79AD0A1A8D8B7A0032E41B /* CFNetwork.framework */,
+				CA79AD081A8D8B690032E41B /* AudioToolbox.framework */,
+				CA79ACFE1A8D8B4D0032E41B /* Bolts.framework */,
+				CA79ACFF1A8D8B4D0032E41B /* Parse.framework */,
+				CA79AD001A8D8B4D0032E41B /* ParseCrashReporting.framework */,
+				CA79AD011A8D8B4D0032E41B /* ParseFacebookUtils.framework */,
+				CA79AD021A8D8B4D0032E41B /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEF6F191A8BD786006A7ABD = {
+			isa = PBXGroup;
+			children = (
+				CACE25591AF47342005EF98C /* Default-568h@2x.png */,
+				CAEF6F241A8BD786006A7ABD /* HireMi */,
+				CAEF6F3A1A8BD786006A7ABD /* ForHireTests */,
+				CAEF6F231A8BD786006A7ABD /* Products */,
+				CA61A7F51A8C4D21001F1726 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEF6F231A8BD786006A7ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF6F221A8BD786006A7ABD /* HireMi.app */,
+				CAEF6F371A8BD786006A7ABD /* HireMiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEF6F241A8BD786006A7ABD /* HireMi */ = {
+			isa = PBXGroup;
+			children = (
+				CADBFA8B1AC90B6500831C11 /* MainStoryboard.storyboard */,
+				CAEF6F271A8BD786006A7ABD /* AppDelegate.swift */,
+				CADBFA8D1AC90F7400831C11 /* EntranceViewController.swift */,
+				CAEF6F471A8BD937006A7ABD /* JobsTableViewController.swift */,
+				CA61A7D51A8BECFB001F1726 /* JobDetailsTableViewController.swift */,
+				CAEF6F491A8BD95C006A7ABD /* NewListingTableViewController.swift */,
+				CAEF6F2E1A8BD786006A7ABD /* Images.xcassets */,
+				CA4046701A969B8C00A646C4 /* Side Menu Files */,
+				CAEF6F301A8BD786006A7ABD /* LaunchScreen.xib */,
+				CA5F8AE01A94317B0034FAF2 /* SWRevealViewController.h */,
+				CA5F8AE11A94317B0034FAF2 /* SWRevealViewController.m */,
+				CAEF6F251A8BD786006A7ABD /* Supporting Files */,
+			);
+			name = HireMi;
+			path = "For Hire";
+			sourceTree = "<group>";
+		};
+		CAEF6F251A8BD786006A7ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF6F261A8BD786006A7ABD /* Info.plist */,
+				CA61A7D71A8BED1E001F1726 /* AcceptedTableViewController.swift */,
+				CA79ACFB1A8D520E0032E41B /* For Hire-Bridging-Header.h */,
+				CA7B268C1ABBD7B000D52DEF /* menu@3x.png */,
+				CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */,
+				CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */,
+				CA3A52461AC228C700FC49C5 /* job_loc_pin.png */,
+				CADBFA951ACB5B5700831C11 /* green_pin.png */,
+				CACE250A1AF1F7BC005EF98C /* pin1.png */,
+				CACE250B1AF1F7BC005EF98C /* check1.png */,
+				CACE25161AF1F898005EF98C /* plus1.png */,
+				CACE250C1AF1F7BC005EF98C /* phone1.png */,
+				CACE25141AF1F888005EF98C /* list1.png */,
+				CACE250D1AF1F7BC005EF98C /* briefcase1.png */,
+				CACE250E1AF1F7BC005EF98C /* about1.png */,
+				CACE25571AF46F3F005EF98C /* launch.jpg */,
+				CACE25531AF45EA5005EF98C /* Media2.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEF6F3A1A8BD786006A7ABD /* ForHireTests */ = {
+			isa = PBXGroup;
+			children = (
+				CACE25511AF45BCD005EF98C /* Info.plist */,
+				CAEF6F3D1A8BD786006A7ABD /* For_HireTests.swift */,
+			);
+			name = ForHireTests;
+			path = "For HireTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEF6F211A8BD786006A7ABD /* HireMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEF6F411A8BD786006A7ABD /* Build configuration list for PBXNativeTarget "HireMi" */;
+			buildPhases = (
+				CAEF6F1E1A8BD786006A7ABD /* Sources */,
+				CAEF6F1F1A8BD786006A7ABD /* Frameworks */,
+				CAEF6F201A8BD786006A7ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HireMi;
+			productName = "For Hire";
+			productReference = CAEF6F221A8BD786006A7ABD /* HireMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEF6F361A8BD786006A7ABD /* HireMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEF6F441A8BD786006A7ABD /* Build configuration list for PBXNativeTarget "HireMiTests" */;
+			buildPhases = (
+				CAEF6F331A8BD786006A7ABD /* Sources */,
+				CAEF6F341A8BD786006A7ABD /* Frameworks */,
+				CAEF6F351A8BD786006A7ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEF6F391A8BD786006A7ABD /* PBXTargetDependency */,
+			);
+			name = HireMiTests;
+			productName = "For HireTests";
+			productReference = CAEF6F371A8BD786006A7ABD /* HireMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEF6F1A1A8BD786006A7ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = coayscue;
+				TargetAttributes = {
+					CAEF6F211A8BD786006A7ABD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = JUXS6F9TT2;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					CAEF6F361A8BD786006A7ABD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CAEF6F211A8BD786006A7ABD;
+					};
+				};
+			};
+			buildConfigurationList = CAEF6F1D1A8BD786006A7ABD /* Build configuration list for PBXProject "HireMi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEF6F191A8BD786006A7ABD;
+			productRefGroup = CAEF6F231A8BD786006A7ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEF6F211A8BD786006A7ABD /* HireMi */,
+				CAEF6F361A8BD786006A7ABD /* HireMiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEF6F201A8BD786006A7ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACE25521AF45BCD005EF98C /* Info.plist in Resources */,
+				CACE25101AF1F7BC005EF98C /* check1.png in Resources */,
+				CA3A52471AC228C700FC49C5 /* job_loc_pin.png in Resources */,
+				CACE25131AF1F7BC005EF98C /* about1.png in Resources */,
+				CAEF6F321A8BD786006A7ABD /* LaunchScreen.xib in Resources */,
+				CACE250F1AF1F7BC005EF98C /* pin1.png in Resources */,
+				CACE25541AF45EA5005EF98C /* Media2.xcassets in Resources */,
+				CACE25111AF1F7BC005EF98C /* phone1.png in Resources */,
+				CA7B268D1ABBD7B000D52DEF /* menu@3x.png in Resources */,
+				CACE25581AF46F3F005EF98C /* launch.jpg in Resources */,
+				CACE25151AF1F889005EF98C /* list1.png in Resources */,
+				CACE25121AF1F7BC005EF98C /* briefcase1.png in Resources */,
+				CACE255A1AF47342005EF98C /* Default-568h@2x.png in Resources */,
+				CAEF6F2F1A8BD786006A7ABD /* Images.xcassets in Resources */,
+				CA3A52451AC21C3E00FC49C5 /* user_loc@3x.png in Resources */,
+				CA3A52431AC1F25600FC49C5 /* get_loc@3x.png in Resources */,
+				CADBFA961ACB5B5700831C11 /* green_pin.png in Resources */,
+				CADBFA8C1AC90B6500831C11 /* MainStoryboard.storyboard in Resources */,
+				CACE25171AF1F898005EF98C /* plus1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF6F351A8BD786006A7ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEF6F1E1A8BD786006A7ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF6F281A8BD786006A7ABD /* AppDelegate.swift in Sources */,
+				CA61A7D81A8BED1E001F1726 /* AcceptedTableViewController.swift in Sources */,
+				CA4046721A96A24400A646C4 /* AboutViewController.swift in Sources */,
+				CAEF6F4A1A8BD95C006A7ABD /* NewListingTableViewController.swift in Sources */,
+				CA61A7D61A8BECFB001F1726 /* JobDetailsTableViewController.swift in Sources */,
+				CAEF6F481A8BD937006A7ABD /* JobsTableViewController.swift in Sources */,
+				CADBFA8E1AC90F7400831C11 /* EntranceViewController.swift in Sources */,
+				CA5F8AE21A94317B0034FAF2 /* SWRevealViewController.m in Sources */,
+				CA4046691A95A85000A646C4 /* ContactInfoTableViewController.swift in Sources */,
+				CA5F8AE91A959BC80034FAF2 /* SideMenuTableViewController.swift in Sources */,
+				CA40466D1A95B19100A646C4 /* YourJobsTableViewController.swift in Sources */,
+				CA40466F1A96978F00A646C4 /* MyJobTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF6F331A8BD786006A7ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF6F3E1A8BD786006A7ABD /* For_HireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEF6F391A8BD786006A7ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEF6F211A8BD786006A7ABD /* HireMi */;
+			targetProxy = CAEF6F381A8BD786006A7ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEF6F301A8BD786006A7ABD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEF6F311A8BD786006A7ABD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEF6F3F1A8BD786006A7ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEF6F401A8BD786006A7ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEF6F421A8BD786006A7ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "For Hire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = HireMi;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "For Hire/For Hire-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAEF6F431A8BD786006A7ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "For Hire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = HireMi;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "For Hire/For Hire-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CAEF6F451A8BD786006A7ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "For HireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = HireMiTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HireMi.app/HireMi";
+			};
+			name = Debug;
+		};
+		CAEF6F461A8BD786006A7ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "For HireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = HireMiTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HireMi.app/HireMi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEF6F1D1A8BD786006A7ABD /* Build configuration list for PBXProject "HireMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF6F3F1A8BD786006A7ABD /* Debug */,
+				CAEF6F401A8BD786006A7ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEF6F411A8BD786006A7ABD /* Build configuration list for PBXNativeTarget "HireMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF6F421A8BD786006A7ABD /* Debug */,
+				CAEF6F431A8BD786006A7ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEF6F441A8BD786006A7ABD /* Build configuration list for PBXNativeTarget "HireMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF6F451A8BD786006A7ABD /* Debug */,
+				CAEF6F461A8BD786006A7ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEF6F1A1A8BD786006A7ABD /* Project object */;
+}
