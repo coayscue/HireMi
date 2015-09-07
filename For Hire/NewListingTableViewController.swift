@@ -87,7 +87,7 @@ class NewListingTableViewController: UITableViewController, UITextViewDelegate, 
         var geoLoc = PFGeoPoint(latitude: map.centerCoordinate.latitude, longitude: map.centerCoordinate.longitude)
         //check to make sure all fields are filled, and the location is good
         println(jobName+pay+description+fullName+cellNum+email)
-        if (jobName == "" || pay == "$0.00" || description == "" || description == "Description (please be very descriptive)" || fullName == "" || cellNum == ""){
+        if (jobName == "" || pay == "$0.00" || description == "" || description == "Description (eg. Deliver bronco burger from tailgaters to Swig 714)" || fullName == "" || cellNum == ""){
             var alert = UIAlertController(title: "Incomplete form", message: "Not all fields are completed.", preferredStyle: UIAlertControllerStyle.Alert)
             var okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
                 alert.dismissViewControllerAnimated(true, completion: nil)

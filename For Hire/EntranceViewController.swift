@@ -22,6 +22,7 @@ class EntranceViewController: UIViewController {
             self.resignFirstResponder()
             self.dismissViewControllerAnimated(true, completion: nil)
         }else{
+            //shake input animation
             UIView.animateWithDuration(0.1, delay: 0, options: nil, animations: { () -> Void in
                 self.EmailField.center = CGPointMake(self.EmailField.center.x - 15, self.EmailField.center.y)
                 }, completion: { (poop) -> Void in

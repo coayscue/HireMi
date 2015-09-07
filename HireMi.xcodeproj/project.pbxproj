@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1699D91B110EF4000D87AB /* NewListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1699D81B110EF4000D87AB /* NewListingViewController.swift */; };
+		CA1699DB1B1115DA000D87AB /* YourListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1699DA1B1115DA000D87AB /* YourListings.swift */; };
+		CA1699DE1B114A0E000D87AB /* saving_box.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1699DC1B114A0E000D87AB /* saving_box.png */; };
+		CA1699DF1B114A0E000D87AB /* job_posted_box.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1699DD1B114A0E000D87AB /* job_posted_box.png */; };
+		CA169A0F1B116D71000D87AB /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA169A0E1B116D71000D87AB /* About.swift */; };
+		CA169A111B1170D0000D87AB /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA169A101B1170D0000D87AB /* about@2x.png */; };
 		CA3A52431AC1F25600FC49C5 /* get_loc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */; };
 		CA3A52451AC21C3E00FC49C5 /* user_loc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */; };
 		CA3A52471AC228C700FC49C5 /* job_loc_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A52461AC228C700FC49C5 /* job_loc_pin.png */; };
@@ -36,6 +42,8 @@
 		CA79AD1D1A8D8BCF0032E41B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD1C1A8D8BCF0032E41B /* libsqlite3.dylib */; };
 		CA79AD1F1A8D91190032E41B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA79AD1E1A8D91190032E41B /* MapKit.framework */; };
 		CA7B268D1ABBD7B000D52DEF /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B268C1ABBD7B000D52DEF /* menu@3x.png */; };
+		CAAFC2941B1551660073756C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAFC2931B1551660073756C /* IntroViewController.swift */; };
+		CAAFC2961B15618D0073756C /* white_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAFC2951B15618C0073756C /* white_line.png */; };
 		CACE250F1AF1F7BC005EF98C /* pin1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250A1AF1F7BC005EF98C /* pin1.png */; };
 		CACE25101AF1F7BC005EF98C /* check1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250B1AF1F7BC005EF98C /* check1.png */; };
 		CACE25111AF1F7BC005EF98C /* phone1.png in Resources */ = {isa = PBXBuildFile; fileRef = CACE250C1AF1F7BC005EF98C /* phone1.png */; };
@@ -69,6 +77,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA1699D81B110EF4000D87AB /* NewListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListingViewController.swift; sourceTree = "<group>"; };
+		CA1699DA1B1115DA000D87AB /* YourListings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourListings.swift; sourceTree = "<group>"; };
+		CA1699DC1B114A0E000D87AB /* saving_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saving_box.png; sourceTree = "<group>"; };
+		CA1699DD1B114A0E000D87AB /* job_posted_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_posted_box.png; sourceTree = "<group>"; };
+		CA169A0E1B116D71000D87AB /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		CA169A101B1170D0000D87AB /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
 		CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get_loc@3x.png"; sourceTree = "<group>"; };
 		CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_loc@3x.png"; sourceTree = "<group>"; };
 		CA3A52461AC228C700FC49C5 /* job_loc_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_loc_pin.png; sourceTree = "<group>"; };
@@ -100,6 +114,8 @@
 		CA79AD1C1A8D8BCF0032E41B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CA79AD1E1A8D91190032E41B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CA7B268C1ABBD7B000D52DEF /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		CAAFC2931B1551660073756C /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		CAAFC2951B15618C0073756C /* white_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_line.png; path = ../white_line.png; sourceTree = "<group>"; };
 		CACE250A1AF1F7BC005EF98C /* pin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin1.png; sourceTree = "<group>"; };
 		CACE250B1AF1F7BC005EF98C /* check1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check1.png; sourceTree = "<group>"; };
 		CACE250C1AF1F7BC005EF98C /* phone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone1.png; sourceTree = "<group>"; };
@@ -160,6 +176,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1699D71B110E88000D87AB /* HireMi Update 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CA1699D81B110EF4000D87AB /* NewListingViewController.swift */,
+				CA1699DA1B1115DA000D87AB /* YourListings.swift */,
+				CAAFC2931B1551660073756C /* IntroViewController.swift */,
+				CA169A0E1B116D71000D87AB /* About.swift */,
+			);
+			name = "HireMi Update 2";
+			sourceTree = "<group>";
+		};
 		CA4046701A969B8C00A646C4 /* Side Menu Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +253,7 @@
 				CA61A7D51A8BECFB001F1726 /* JobDetailsTableViewController.swift */,
 				CAEF6F491A8BD95C006A7ABD /* NewListingTableViewController.swift */,
 				CAEF6F2E1A8BD786006A7ABD /* Images.xcassets */,
+				CA1699D71B110E88000D87AB /* HireMi Update 2 */,
 				CA4046701A969B8C00A646C4 /* Side Menu Files */,
 				CAEF6F301A8BD786006A7ABD /* LaunchScreen.xib */,
 				CA5F8AE01A94317B0034FAF2 /* SWRevealViewController.h */,
@@ -242,6 +270,7 @@
 				CAEF6F261A8BD786006A7ABD /* Info.plist */,
 				CA61A7D71A8BED1E001F1726 /* AcceptedTableViewController.swift */,
 				CA79ACFB1A8D520E0032E41B /* For Hire-Bridging-Header.h */,
+				CA169A101B1170D0000D87AB /* about@2x.png */,
 				CA7B268C1ABBD7B000D52DEF /* menu@3x.png */,
 				CA3A52421AC1F25600FC49C5 /* get_loc@3x.png */,
 				CA3A52441AC21C3E00FC49C5 /* user_loc@3x.png */,
@@ -252,9 +281,12 @@
 				CACE25161AF1F898005EF98C /* plus1.png */,
 				CACE250C1AF1F7BC005EF98C /* phone1.png */,
 				CACE25141AF1F888005EF98C /* list1.png */,
+				CAAFC2951B15618C0073756C /* white_line.png */,
 				CACE250D1AF1F7BC005EF98C /* briefcase1.png */,
 				CACE250E1AF1F7BC005EF98C /* about1.png */,
 				CACE25571AF46F3F005EF98C /* launch.jpg */,
+				CA1699DC1B114A0E000D87AB /* saving_box.png */,
+				CA1699DD1B114A0E000D87AB /* job_posted_box.png */,
 				CACE25531AF45EA5005EF98C /* Media2.xcassets */,
 			);
 			name = "Supporting Files";
@@ -364,13 +396,17 @@
 				CACE250F1AF1F7BC005EF98C /* pin1.png in Resources */,
 				CACE25541AF45EA5005EF98C /* Media2.xcassets in Resources */,
 				CACE25111AF1F7BC005EF98C /* phone1.png in Resources */,
+				CA169A111B1170D0000D87AB /* about@2x.png in Resources */,
 				CA7B268D1ABBD7B000D52DEF /* menu@3x.png in Resources */,
+				CA1699DF1B114A0E000D87AB /* job_posted_box.png in Resources */,
+				CA1699DE1B114A0E000D87AB /* saving_box.png in Resources */,
 				CACE25581AF46F3F005EF98C /* launch.jpg in Resources */,
 				CACE25151AF1F889005EF98C /* list1.png in Resources */,
 				CACE25121AF1F7BC005EF98C /* briefcase1.png in Resources */,
 				CACE255A1AF47342005EF98C /* Default-568h@2x.png in Resources */,
 				CAEF6F2F1A8BD786006A7ABD /* Images.xcassets in Resources */,
 				CA3A52451AC21C3E00FC49C5 /* user_loc@3x.png in Resources */,
+				CAAFC2961B15618D0073756C /* white_line.png in Resources */,
 				CA3A52431AC1F25600FC49C5 /* get_loc@3x.png in Resources */,
 				CADBFA961ACB5B5700831C11 /* green_pin.png in Resources */,
 				CADBFA8C1AC90B6500831C11 /* MainStoryboard.storyboard in Resources */,
@@ -402,8 +438,12 @@
 				CA5F8AE21A94317B0034FAF2 /* SWRevealViewController.m in Sources */,
 				CA4046691A95A85000A646C4 /* ContactInfoTableViewController.swift in Sources */,
 				CA5F8AE91A959BC80034FAF2 /* SideMenuTableViewController.swift in Sources */,
+				CA169A0F1B116D71000D87AB /* About.swift in Sources */,
 				CA40466D1A95B19100A646C4 /* YourJobsTableViewController.swift in Sources */,
+				CA1699DB1B1115DA000D87AB /* YourListings.swift in Sources */,
+				CA1699D91B110EF4000D87AB /* NewListingViewController.swift in Sources */,
 				CA40466F1A96978F00A646C4 /* MyJobTableViewController.swift in Sources */,
+				CAAFC2941B1551660073756C /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
